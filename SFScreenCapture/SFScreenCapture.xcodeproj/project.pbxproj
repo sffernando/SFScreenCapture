@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F52AE71BEBA164004F8458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52AE61BEBA164004F8458 /* main.m */; };
+		53F52AEA1BEBA164004F8458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52AE91BEBA164004F8458 /* AppDelegate.m */; };
+		53F52AED1BEBA164004F8458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52AEC1BEBA164004F8458 /* ViewController.m */; };
+		53F52AF01BEBA164004F8458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F52AEE1BEBA164004F8458 /* Main.storyboard */; };
+		53F52AF21BEBA164004F8458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F52AF11BEBA164004F8458 /* Assets.xcassets */; };
+		53F52AF51BEBA164004F8458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F52AF31BEBA164004F8458 /* LaunchScreen.storyboard */; };
+		53F52B001BEBA165004F8458 /* SFScreenCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52AFF1BEBA165004F8458 /* SFScreenCaptureTests.m */; };
+		53F52B0B1BEBA165004F8458 /* SFScreenCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52B0A1BEBA165004F8458 /* SFScreenCaptureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F52AFC1BEBA165004F8458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F52ADA1BEBA164004F8458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F52AE11BEBA164004F8458;
+			remoteInfo = SFScreenCapture;
+		};
+		53F52B071BEBA165004F8458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F52ADA1BEBA164004F8458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F52AE11BEBA164004F8458;
+			remoteInfo = SFScreenCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F52AE21BEBA164004F8458 /* SFScreenCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFScreenCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F52AE61BEBA164004F8458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F52AE81BEBA164004F8458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F52AE91BEBA164004F8458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F52AEB1BEBA164004F8458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53F52AEC1BEBA164004F8458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53F52AEF1BEBA164004F8458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F52AF11BEBA164004F8458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F52AF41BEBA164004F8458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F52AF61BEBA164004F8458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F52AFB1BEBA165004F8458 /* SFScreenCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFScreenCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F52AFF1BEBA165004F8458 /* SFScreenCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFScreenCaptureTests.m; sourceTree = "<group>"; };
+		53F52B011BEBA165004F8458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F52B061BEBA165004F8458 /* SFScreenCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFScreenCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F52B0A1BEBA165004F8458 /* SFScreenCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFScreenCaptureUITests.m; sourceTree = "<group>"; };
+		53F52B0C1BEBA165004F8458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F52ADF1BEBA164004F8458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52AF81BEBA165004F8458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52B031BEBA165004F8458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F52AD91BEBA164004F8458 = {
+			isa = PBXGroup;
+			children = (
+				53F52AE41BEBA164004F8458 /* SFScreenCapture */,
+				53F52AFE1BEBA165004F8458 /* SFScreenCaptureTests */,
+				53F52B091BEBA165004F8458 /* SFScreenCaptureUITests */,
+				53F52AE31BEBA164004F8458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F52AE31BEBA164004F8458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F52AE21BEBA164004F8458 /* SFScreenCapture.app */,
+				53F52AFB1BEBA165004F8458 /* SFScreenCaptureTests.xctest */,
+				53F52B061BEBA165004F8458 /* SFScreenCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F52AE41BEBA164004F8458 /* SFScreenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				53F52AE81BEBA164004F8458 /* AppDelegate.h */,
+				53F52AE91BEBA164004F8458 /* AppDelegate.m */,
+				53F52AEB1BEBA164004F8458 /* ViewController.h */,
+				53F52AEC1BEBA164004F8458 /* ViewController.m */,
+				53F52AEE1BEBA164004F8458 /* Main.storyboard */,
+				53F52AF11BEBA164004F8458 /* Assets.xcassets */,
+				53F52AF31BEBA164004F8458 /* LaunchScreen.storyboard */,
+				53F52AF61BEBA164004F8458 /* Info.plist */,
+				53F52AE51BEBA164004F8458 /* Supporting Files */,
+			);
+			path = SFScreenCapture;
+			sourceTree = "<group>";
+		};
+		53F52AE51BEBA164004F8458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F52AE61BEBA164004F8458 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53F52AFE1BEBA165004F8458 /* SFScreenCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F52AFF1BEBA165004F8458 /* SFScreenCaptureTests.m */,
+				53F52B011BEBA165004F8458 /* Info.plist */,
+			);
+			path = SFScreenCaptureTests;
+			sourceTree = "<group>";
+		};
+		53F52B091BEBA165004F8458 /* SFScreenCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53F52B0A1BEBA165004F8458 /* SFScreenCaptureUITests.m */,
+				53F52B0C1BEBA165004F8458 /* Info.plist */,
+			);
+			path = SFScreenCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F52AE11BEBA164004F8458 /* SFScreenCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F52B0F1BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCapture" */;
+			buildPhases = (
+				53F52ADE1BEBA164004F8458 /* Sources */,
+				53F52ADF1BEBA164004F8458 /* Frameworks */,
+				53F52AE01BEBA164004F8458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFScreenCapture;
+			productName = SFScreenCapture;
+			productReference = 53F52AE21BEBA164004F8458 /* SFScreenCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F52AFA1BEBA165004F8458 /* SFScreenCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F52B121BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureTests" */;
+			buildPhases = (
+				53F52AF71BEBA165004F8458 /* Sources */,
+				53F52AF81BEBA165004F8458 /* Frameworks */,
+				53F52AF91BEBA165004F8458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F52AFD1BEBA165004F8458 /* PBXTargetDependency */,
+			);
+			name = SFScreenCaptureTests;
+			productName = SFScreenCaptureTests;
+			productReference = 53F52AFB1BEBA165004F8458 /* SFScreenCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F52B051BEBA165004F8458 /* SFScreenCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F52B151BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureUITests" */;
+			buildPhases = (
+				53F52B021BEBA165004F8458 /* Sources */,
+				53F52B031BEBA165004F8458 /* Frameworks */,
+				53F52B041BEBA165004F8458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F52B081BEBA165004F8458 /* PBXTargetDependency */,
+			);
+			name = SFScreenCaptureUITests;
+			productName = SFScreenCaptureUITests;
+			productReference = 53F52B061BEBA165004F8458 /* SFScreenCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F52ADA1BEBA164004F8458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fernando;
+				TargetAttributes = {
+					53F52AE11BEBA164004F8458 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					53F52AFA1BEBA165004F8458 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 53F52AE11BEBA164004F8458;
+					};
+					53F52B051BEBA165004F8458 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 53F52AE11BEBA164004F8458;
+					};
+				};
+			};
+			buildConfigurationList = 53F52ADD1BEBA164004F8458 /* Build configuration list for PBXProject "SFScreenCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F52AD91BEBA164004F8458;
+			productRefGroup = 53F52AE31BEBA164004F8458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F52AE11BEBA164004F8458 /* SFScreenCapture */,
+				53F52AFA1BEBA165004F8458 /* SFScreenCaptureTests */,
+				53F52B051BEBA165004F8458 /* SFScreenCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F52AE01BEBA164004F8458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F52AF51BEBA164004F8458 /* LaunchScreen.storyboard in Resources */,
+				53F52AF21BEBA164004F8458 /* Assets.xcassets in Resources */,
+				53F52AF01BEBA164004F8458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52AF91BEBA165004F8458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52B041BEBA165004F8458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F52ADE1BEBA164004F8458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F52AED1BEBA164004F8458 /* ViewController.m in Sources */,
+				53F52AEA1BEBA164004F8458 /* AppDelegate.m in Sources */,
+				53F52AE71BEBA164004F8458 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52AF71BEBA165004F8458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F52B001BEBA165004F8458 /* SFScreenCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F52B021BEBA165004F8458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F52B0B1BEBA165004F8458 /* SFScreenCaptureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F52AFD1BEBA165004F8458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F52AE11BEBA164004F8458 /* SFScreenCapture */;
+			targetProxy = 53F52AFC1BEBA165004F8458 /* PBXContainerItemProxy */;
+		};
+		53F52B081BEBA165004F8458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F52AE11BEBA164004F8458 /* SFScreenCapture */;
+			targetProxy = 53F52B071BEBA165004F8458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F52AEE1BEBA164004F8458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F52AEF1BEBA164004F8458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F52AF31BEBA164004F8458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F52AF41BEBA164004F8458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F52B0D1BEBA165004F8458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53F52B0E1BEBA165004F8458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F52B101BEBA165004F8458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFScreenCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53F52B111BEBA165004F8458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFScreenCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53F52B131BEBA165004F8458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFScreenCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFScreenCapture.app/SFScreenCapture";
+			};
+			name = Debug;
+		};
+		53F52B141BEBA165004F8458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFScreenCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFScreenCapture.app/SFScreenCapture";
+			};
+			name = Release;
+		};
+		53F52B161BEBA165004F8458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFScreenCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFScreenCapture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		53F52B171BEBA165004F8458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFScreenCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.SFScreenCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFScreenCapture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F52ADD1BEBA164004F8458 /* Build configuration list for PBXProject "SFScreenCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F52B0D1BEBA165004F8458 /* Debug */,
+				53F52B0E1BEBA165004F8458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F52B0F1BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F52B101BEBA165004F8458 /* Debug */,
+				53F52B111BEBA165004F8458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53F52B121BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F52B131BEBA165004F8458 /* Debug */,
+				53F52B141BEBA165004F8458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53F52B151BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F52B161BEBA165004F8458 /* Debug */,
+				53F52B171BEBA165004F8458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F52ADA1BEBA164004F8458 /* Project object */;
+}
