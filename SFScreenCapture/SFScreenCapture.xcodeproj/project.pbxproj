@@ -15,6 +15,8 @@
 		53F52AF51BEBA164004F8458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F52AF31BEBA164004F8458 /* LaunchScreen.storyboard */; };
 		53F52B001BEBA165004F8458 /* SFScreenCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52AFF1BEBA165004F8458 /* SFScreenCaptureTests.m */; };
 		53F52B0B1BEBA165004F8458 /* SFScreenCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52B0A1BEBA165004F8458 /* SFScreenCaptureUITests.m */; };
+		53F52B1A1BEE14E8004F8458 /* CaptureViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52B191BEE14E8004F8458 /* CaptureViewViewController.m */; };
+		53F52B1D1BEE1500004F8458 /* CaptureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F52B1C1BEE1500004F8458 /* CaptureTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		53F52B061BEBA165004F8458 /* SFScreenCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFScreenCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F52B0A1BEBA165004F8458 /* SFScreenCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFScreenCaptureUITests.m; sourceTree = "<group>"; };
 		53F52B0C1BEBA165004F8458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F52B181BEE14E8004F8458 /* CaptureViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewViewController.h; sourceTree = "<group>"; };
+		53F52B191BEE14E8004F8458 /* CaptureViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewViewController.m; sourceTree = "<group>"; };
+		53F52B1B1BEE1500004F8458 /* CaptureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureTableViewController.h; sourceTree = "<group>"; };
+		53F52B1C1BEE1500004F8458 /* CaptureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				53F52AF31BEBA164004F8458 /* LaunchScreen.storyboard */,
 				53F52AF61BEBA164004F8458 /* Info.plist */,
 				53F52AE51BEBA164004F8458 /* Supporting Files */,
+				53F52B181BEE14E8004F8458 /* CaptureViewViewController.h */,
+				53F52B191BEE14E8004F8458 /* CaptureViewViewController.m */,
+				53F52B1B1BEE1500004F8458 /* CaptureTableViewController.h */,
+				53F52B1C1BEE1500004F8458 /* CaptureTableViewController.m */,
 			);
 			path = SFScreenCapture;
 			sourceTree = "<group>";
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F52B1A1BEE14E8004F8458 /* CaptureViewViewController.m in Sources */,
+				53F52B1D1BEE1500004F8458 /* CaptureTableViewController.m in Sources */,
 				53F52AED1BEBA164004F8458 /* ViewController.m in Sources */,
 				53F52AEA1BEBA164004F8458 /* AppDelegate.m in Sources */,
 				53F52AE71BEBA164004F8458 /* main.m in Sources */,
@@ -496,6 +508,7 @@
 				53F52B111BEBA165004F8458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F52B121BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				53F52B141BEBA165004F8458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F52B151BEBA165004F8458 /* Build configuration list for PBXNativeTarget "SFScreenCaptureUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				53F52B171BEBA165004F8458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
