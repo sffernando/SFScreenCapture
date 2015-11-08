@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CaptureTableViewController.h"
+#import "CaptureViewViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -20,24 +22,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Screen Capture";
+    _titleArray = [[NSMutableArray alloc] initWithObjects:@"Capture View",@"Capture TableView", nil];
+    [_contentTableView setFrame:CGRectMake(0, 60, self.view.frame.size.width, self.view.frame.size.height)];
+    [_contentTableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    self.title = @"Screen Capture";
     
-    _contentTableView.frame = CGRectMake(0, self.navigationController.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height - self.navigationController.view.frame.size.height);
-}
-
-- (NSMutableArray *)titleArray{
-    if (!_titleArray) {
-        _titleArray = [[NSMutableArray alloc] initWithObjects:@"Capture View",@"Capture TableView", nil];
-    }
-    return _titleArray;
 }
 
 #pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.row == 0) {
+        CaptureTableViewController *controller = [[CaptureTableViewController alloc] init];
+        [self presentViewController:controller animated:YES completion:^{
+            
+        }];
+    }else if (indexPath.row == 1){
+        CaptureViewViewController *controller = [[CaptureViewViewController alloc] init];
+        [self presentViewController:controller animated:YES completion:^{
+            
+        }];
+    }
+}
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return _titleArray.count;
@@ -47,7 +59,12 @@
 // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [tableView ];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
+        cell.textLabel.text = [_titleArray objectAtIndex:indexPath.row];
+    }
+    return cell;
 }
 
 @end
